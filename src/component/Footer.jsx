@@ -1,0 +1,9 @@
+import React from 'react'
+
+export default function Footer() {
+  return (
+    <div style={{backgroundColor:"black",height:"150px",color:"white",width:"100%",textAlign:"center"}}>
+        <h1>FOOTER</h1>
+    </div>
+  )
+}
