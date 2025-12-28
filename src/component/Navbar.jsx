@@ -69,7 +69,7 @@ export const Navbar = (props) => {
                 Item
               </Link>
             </li> */}
-              {/* <li class="nav-item">
+            {/* <li class="nav-item">
               <Link class="nav-link" to="/formdemo1">
                 formdemo1
               </Link>
@@ -128,7 +128,7 @@ export const Navbar = (props) => {
               <Link class="nav-link" to="/formdemo12">
                 formdemo12
               </Link>
-            </li> */}
+            </li> 
             <li class="nav-item">
               <Link class="nav-link" to="/apidemo1">
                 Api Demo 1
@@ -208,8 +208,17 @@ export const Navbar = (props) => {
               <Link class="nav-link" to="/student11">
                 Student
               </Link>
+            </li>*/}
+            <li class="nav-item">
+              <Link class="nav-link" to="/muidemo1">
+                Mui Demo 1
+              </Link>
             </li>
-            
+            <li class="nav-item">
+              <Link class="nav-link" to="/muitask1">
+                Mui Task 1
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
