@@ -1,0 +1,229 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* ================= APP ================= */
+.wa-app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+/* ================= TABS ================= */
+.wa-tabs-nav {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-link {
+  padding: 6px 10px;
+  font-size: 12px;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+}
+
+.tab-link.active {
+  background: #333;
+  color: white;
+}
+
+/* ================= MAIN LAYOUT ================= */
+.wa-main-layout {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.wa-settings-sidebar {
+  width: 45%;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.wa-preview-area {
+  flex: 1;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================= SETTINGS ================= */
+.settings-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.settings-grid label {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.settings-grid input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ================= PHONE ================= */
+.iphone-outer-shell {
+  width: 320px;
+  height: 640px;
+  background: black;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.iphone-inner-screen {
+  height: 100%;
+  background: #e5ddd5;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= STATUS BAR ================= */
+.iphone-status-bar {
+  background: #075e54;
+  color: white;
+  font-size: 10px;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ================= HEADER ================= */
+.iphone-chat-header {
+  background: #075e54;
+  color: white;
+  padding: 6px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.wa-back-btn {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.wa-header-user {
+  text-align: center;
+  line-height: 1.1;
+}
+
+.wa-header-name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.wa-header-status {
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+.wa-header-pfp {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ccc;
+}
+
+/* ================= CHAT BODY ================= */
+.iphone-chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.wa-bubble-row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.wa-bubble-row.sent {
+  justify-content: flex-end;
+}
+
+.wa-bubble-row.received {
+  justify-content: flex-start;
+}
+
+.wa-bubble-item {
+  max-width: 75%;
+  padding: 8px 12px;
+  background: white;
+  border-radius: 10px;
+  font-size: 13px;
+  position: relative;
+}
+
+.sent .wa-bubble-item {
+  background: #dcf8c6;
+}
+
+.wa-bubble-time {
+  display: block;
+  font-size: 9px;
+  color: #666;
+  margin-top: 4px;
+  text-align: right;
+}
+
+/* ================= DELETE BUTTON ================= */
+.wa-delete-btn {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  font-size: 9px;
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+.iphone-chat-footer {
+  background: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wa-plus-btn {
+  font-size: 20px;
+  color: #555;
+}
+
+.wa-input-mock {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 13px;
+  color: #888;
+}
+
+.wa-mic-icon {
+  font-size: 18px;
+}

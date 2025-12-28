@@ -67,6 +67,11 @@ import { UseRefDemo1 } from "./api/UseRefDemo1";
 import { UseRefDemo2 } from "./api/UseRefDemo2";
 import { UseMemo1 } from "./memo/UseMemo1";
 import { FindMemo } from "./memo/FindMemo";
+import { Student } from "./component/Student";
+import { Whatsapp } from "./whatsapp/Whatsapp";
+import { Demo } from "./whatsapp/Demo";
+
+
 
 function App() {
   var title = "React";
@@ -136,7 +141,14 @@ function App() {
         <Route path="/*" element={<Error404 />} />
         <Route path="/UseMemo1" element={<UseMemo1/>}></Route>
         <Route path="/findmemo" element={<FindMemo/>}></Route>
-      </Routes>
+
+        //
+
+        <Route path="/student11" element={<Student/>}></Route>
+
+        <Route path="/whatsapp1" element={<Whatsapp/>}></Route>
+        <Route path="/demo111" element={<Demo/>}></Route>        
+        </Routes>
     </div>
   );
 }

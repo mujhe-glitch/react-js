@@ -204,6 +204,12 @@ export const Navbar = (props) => {
                   Find Bomb
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/student11">
+                Student
+              </Link>
+            </li>
+            
           </ul>
         </div>
       </nav>
