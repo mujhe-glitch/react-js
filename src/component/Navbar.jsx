@@ -229,6 +229,11 @@ export const Navbar = (props) => {
                 Mui Task 2
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/muitask3">
+                Mui Task 3
+              </Link>
+            </li>
             
           </ul>
         </div>

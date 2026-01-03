@@ -73,6 +73,7 @@ import { MuiTask1 } from "./mui/MuiTask1";
 import { MuiDemo1 } from "./mui/MuiDemo1";
 import { MuiDemo2 } from "./mui/MuiDemo2";
 import MuiTask2  from "./mui/MuiTask2";
+import MuiTask3  from "./mui/MuiTask3";
 
 
 function App() {
@@ -153,6 +154,7 @@ function App() {
         <Route path="/muidemo1" element={<MuiDemo1/>}></Route>
         <Route path="/muidemo2" element={<MuiDemo2/>}></Route>
         <Route path="/muitask2" element={<MuiTask2/>}></Route>
+        <Route path="/muitask3" element={<MuiTask3/>}></Route>
         </Routes>
     </div>
   );
