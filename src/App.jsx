@@ -69,10 +69,10 @@ import { UseMemo1 } from "./memo/UseMemo1";
 import { FindMemo } from "./memo/FindMemo";
 import { Student } from "./component/Student";
 import { Whatsapp } from "./whatsapp/Whatsapp";
-import { Demo } from "./whatsapp/Demo";
-import { MuiImplement1 } from "./mui/MuiImplement1";
 import { MuiTask1 } from "./mui/MuiTask1";
-
+import { MuiDemo1 } from "./mui/MuiDemo1";
+import { MuiDemo2 } from "./mui/MuiDemo2";
+import MuiTask2  from "./mui/MuiTask2";
 
 
 function App() {
@@ -149,9 +149,10 @@ function App() {
         <Route path="/student11" element={<Student/>}></Route>
 
         <Route path="/whatsapp1" element={<Whatsapp/>}></Route>
-        <Route path="/demo111" element={<Demo/>}></Route>        
-        <Route path="/muidemo1" element={<MuiImplement1/>}></Route>
         <Route path="/muitask1" element={<MuiTask1/>}></Route>
+        <Route path="/muidemo1" element={<MuiDemo1/>}></Route>
+        <Route path="/muidemo2" element={<MuiDemo2/>}></Route>
+        <Route path="/muitask2" element={<MuiTask2/>}></Route>
         </Routes>
     </div>
   );

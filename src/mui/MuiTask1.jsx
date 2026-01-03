@@ -14,11 +14,11 @@ export const MuiTask1 = () => {
   const [hover, setHover] = useState(-1);
 
   return (
-    <div>
+    <div style={{textAlign:'center'}}>
       <h1>Rating</h1>
 
-      <Box sx={{ display: "flex", alignItems: "center" }}>
-        <Rating
+      <Box sx={{ display: "flex", alignItems: "center" }} style={{textAlign:'center'}} >
+        <Rating 
           name="hover-feedback"
           value={value}
           precision={0.5}
@@ -35,7 +35,7 @@ export const MuiTask1 = () => {
         />
 
         {value !== null && (
-          <Box sx={{ ml: 2 }}>
+          <Box sx={{ ml: 2 }} style={{textAlign:'center'}}>
             {labels[hover !== -1 ? hover : value]}
           </Box>
         )}

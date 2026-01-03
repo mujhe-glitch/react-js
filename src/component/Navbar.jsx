@@ -210,8 +210,13 @@ export const Navbar = (props) => {
               </Link>
             </li>*/}
             <li class="nav-item">
-              <Link class="nav-link" to="/muidemo1">
+              <Link class="nav-link" to="/muidemo111">
                 Mui Demo 1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/muidemo2">
+                Mui Demo 2
               </Link>
             </li>
             <li class="nav-item">
@@ -219,6 +224,12 @@ export const Navbar = (props) => {
                 Mui Task 1
               </Link>
             </li>
+              <li class="nav-item">
+              <Link class="nav-link" to="/muitask2">
+                Mui Task 2
+              </Link>
+            </li>
+            
           </ul>
         </div>
       </nav>
